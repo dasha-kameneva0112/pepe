@@ -36,7 +36,7 @@ while try_left > 0:
     if len(later) != 1 or not later.isalpha():
         print('Нужна одна буква')
         continue
-# проверка на существование введенной буквы
+
     if later in guesses:
         print('уже была')
         continue
